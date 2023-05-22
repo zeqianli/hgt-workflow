@@ -1,0 +1,15 @@
+# Paths
+
+DIR_output: "/home/zeqianli/project/zeqian/Mats/data/sag"
+FILE_sample_list: ""
+#FILE_sample_list: "/home/zeqianli/Kuehn/Mats/workflows/hgt/config/samples_sag_test.txt"
+
+DIR_assembly: "contigs" # Assembly files
+DIR_virsorter: "virsorter" # VirSorter2 output
+# PATH_adapters: "/home/zeqian/Documents/Kuehn/Carbon/snakemake/config/trimmomatic_adapters.fa" 
+
+# Parameters
+threads: 1
+
+# File formats
+SUFFIX_assembly: ".contigs.fa"

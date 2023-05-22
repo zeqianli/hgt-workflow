@@ -1,0 +1,25 @@
+# Paths
+
+DIR_output: "/home/zeqianli/project/zeqian/Mats/data/metagenome"
+FILE_sample_list: ""
+#FILE_sample_list: "/home/zeqianli/Kuehn/Mats/workflows/hgt/config/samples_test.txt"
+
+DIR_assembly: "contigs" # Assembly files
+DIR_virsorter: "virsorter" # VirSorter2 output
+DIR_mobileog: "mobileog"
+# PATH_adapters: "/home/zeqian/Documents/Kuehn/Carbon/snakemake/config/trimmomatic_adapters.fa" 
+
+# Paths
+PATH_checkv_db: "/home/zeqianli/project/zeqian/bin/checkv/db/checkv-db-v1.5"
+PATH_mobileog_db: "/home/zeqianli/project/zeqian/Mats/data/mge/mobileog_all"
+
+# Executables
+EXC_mobileog: /home/zeqianli/project/zeqian/bin/mobileog_pl/mobileOGs-pl-kyanite.py
+
+
+# Parameters
+threads: 48
+min_length: 5000
+
+# File formats
+SUFFIX_assembly: ".contigs.fa"
